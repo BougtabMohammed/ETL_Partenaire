@@ -1,0 +1,28 @@
+{
+  "_explication": {
+    "comment": "Ce fichier est le SEUL fichier à modifier quand on ajoute un nouveau partenaire.",
+    "mapping_explication": "Le mapping dit : colonne interne = nom colonne dans le fichier Excel du partenaire",
+    "exemple": "Si dans le fichier Excel du partenaire la colonne CIN s'appelle 'NUMERO_CIN', écrire : 'cin': 'NUMERO_CIN'"
+  },
+
+  "canvas_types": {
+
+    "PARTENAIRE_1": {
+      "_nom_fichier_exemple": "partenaire1.xlsx",
+      "partenaire_nom": "Partenaire 1",
+      "partenaire_type": "Banque",
+      "mapping": {
+        "company_name":              "companyName",
+        "affiliate_number":          "affiliateNumber",
+        "date_adhesion":             "dateAdhesion",
+        "date_affiliation":          "dateAffiliation",
+        "type_adherent":             "typeAdherent",
+        "company_name_mandataire":   "companyNameMandataire",
+        "affiliate_number_mandataire":"affiliateNumberMandataire",
+        "admin_last_name":           "admin_lastName",
+        "cin":                       "admin_cin"
+      }
+    }
+
+  }
+}
